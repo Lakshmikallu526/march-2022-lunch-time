@@ -1,0 +1,14 @@
+m=int(input())
+t=0
+for i in range(m):
+    a=int(input())
+    t=a//10
+    a=a%10
+    t=t+a//5
+    a=a%5
+    if a!=0:
+        print(-1)
+    else:
+        print(t)
+    
+    
